@@ -61,9 +61,4 @@ export const tecnologias: Tecnologia[] = [
         nome: 'Git',
         sobre: 'Ferramenta de versionamento de código'
     },
-    {
-        icon:'git.png',
-        nome: 'C',
-        sobre: 'linguagem de amor'
-    },
 ]

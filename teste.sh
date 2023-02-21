@@ -1,3 +1,4 @@
 #!/usr/bin/env sh
-sudo docker build -t imrayh/mysite .
-sudo docker push imrayh/mysite
+docker image rm imrayh/mysite
+docker build -t imrayh/mysite .
+docker push imrayh/mysite
