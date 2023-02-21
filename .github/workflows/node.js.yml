@@ -33,6 +33,6 @@ jobs:
         with:
           context: .
           push: true
-          tags: latest
+          tags: imrayh/mysite:latest
           labels: mysite
 
