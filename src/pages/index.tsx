@@ -49,7 +49,7 @@ export default function Home() {
                 <div className={"text-white text-2xl "+inter.className}>
                 </div>
                 <div>
-                    <span className={"text-white"}>Minhas redes:</span>]
+                    <span className={"text-white"}>Minhas redes sociais:</span>]
                     <div className={"flex gap-4"}>
                         <div>
                             <div className={"flex"}>

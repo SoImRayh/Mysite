@@ -1,0 +1,3 @@
+# Criando um dockerfile de produção com varios estágios sendo que o primeiro irá buildar e o segundo estágio irá ser o executor
+FROM node:18
+
