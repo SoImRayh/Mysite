@@ -40,7 +40,7 @@ export default function Home() {
         <section id={"projetos"}>
             <div className={"w-full relative min-h-screen"}>
                 <div className={"text-white text-2xl "+inter.className}>
-                    <span className={"text-4xl py-2"}>Alguns dos meus projetos pessoais:</span>
+                    <span className={"text-4xl py-2"}>Alguns dos meus projetos pessoais :</span>
                 </div>
             </div>
         </section>
