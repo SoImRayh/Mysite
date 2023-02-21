@@ -25,6 +25,7 @@ jobs:
       - run: npm ci
       - run: npm run build --if-present
 
+      - uses: mr-smithers-excellent/docker-build-push@v5
       - name: Build & push docker image
         uses: mr-smithers-excellent/docker-build-push@v5
         with:
