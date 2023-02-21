@@ -1,0 +1,14 @@
+version: '3.7'
+services:
+  watchtower:
+    image: containrrr/watchtower
+    command:
+      - -i=30
+    volumes:
+      - /var/run/docker.sock:/var/run/docker.sock
+
+  app:
+    image: imrayh/mysite
+    container_name: mysite
+    ports:
+      - '3000:3000'
