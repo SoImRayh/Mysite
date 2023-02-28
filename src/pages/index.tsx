@@ -18,7 +18,7 @@ export default function Home() {
         <div className={"w-min-screen h-max mt-20 py-28 flex flex-col items-center text-white min-h-screen relative "+ inter.className}>
             <div className={"h-40 w-40 rounded-full bg-white"}></div>
             <div className={"flex-col flex text-center w-[50%]"}>
-                <span className={"text-3xl mt-8"}>Olá, me chamo Ximira</span>
+                <span className={"text-3xl mt-8"}>Olá, me chamo Ximira hehe</span>
                 <span className={"mt-4"}>
                 Sou estudante no curso de <a href="">Ciência da computação</a> no IFG Anápolis,<br/>
                 amo expandir meu horizonte de conhecimento, e meu sonho é dominar o mundo!
