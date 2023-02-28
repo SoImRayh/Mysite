@@ -33,6 +33,6 @@ jobs:
         with:
           context: .
           push: true
-          tags: imrayh/mysite:arm64-v8
+          tags: imrayh/mysite
           labels: mysite
 
